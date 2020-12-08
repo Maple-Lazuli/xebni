@@ -1,0 +1,2 @@
+com/example/xebni/EndpointsControllerTest.java
+ com.example.xebni.EndpointsControllerTest

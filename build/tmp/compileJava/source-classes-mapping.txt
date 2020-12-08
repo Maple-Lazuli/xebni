@@ -1,0 +1,6 @@
+com/example/xebni/XebniApplication.java
+ com.example.xebni.XebniApplication
+com/example/xebni/EndpointsController.java
+ com.example.xebni.EndpointsController
+com/example/xebni/QuerystringController.java
+ com.example.xebni.QuerystringController

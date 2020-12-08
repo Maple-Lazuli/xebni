@@ -2,6 +2,7 @@ package com.example.xebni;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
+
 @RestController
 public class EndpointsController {
 
@@ -17,8 +18,8 @@ public class EndpointsController {
     public String createTask() {
         return "You just POSTed to /tasks";
     }
-    @GetMapping("/math/pi")
+    @GetMapping("math/pi")
     public String returnPI() {
-        return String.valueOf(Math.PI);
+        return String.valueOf(Math.PI) + "\n";
     }
 }
